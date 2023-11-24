@@ -38,7 +38,80 @@ body {
     box-shadow: 0 0 25px #D58D43;
 }
 
-.dishname {
+h2 {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 35px;
+    margin: 10px;
+}
+
+.img-recipe img{
+    height: 500px;
+    margin: 25px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+.intro {
+    display: flex;
+}
+
+.description,
+.ingredients,
+.preparation,
+.header-recipe,
+.header {
+    border: dotted 5px #D58D43;
+    border-radius: 10px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header-recipe {
+    margin: auto;
+}
+
+.description {
     font-size: 30px;
-    margin-top: 0px;
+    padding: 20px ;
+    margin: auto;
+}
+
+.body-recipe {
+    display: flex;
+    gap: 25px;
+    font-size: 30px;
+}
+
+.ingredients {
+    flex: 30%;
+}
+
+.preparation {
+    flex: 70%;
+}
+ 
+li {
+    padding-bottom:12px;
+}
+
+.links a {
+    display: flex;
+    width: fit-content;
+    margin: 25px auto 25px;
+    padding: 15px 20px;
+    font-size: 40px;
+    justify-content: center;
+    border: #D58D43 dotted 5px;
+    border-radius: 10px;
+    color: black;
 }
