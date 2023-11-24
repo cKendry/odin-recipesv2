@@ -8,6 +8,9 @@ body {
     text-align: center;
     padding: 15px;
     font-size: 50px;
+    margin: 80px auto 100px;
+    width: 350px;
+    border-radius: 10px;
 }
 
 .container {
@@ -24,6 +27,10 @@ body {
     align-items:center;
     width:400px;
     text-align: center;
+}
+
+.item img {
+    border-radius: 10px;
 }
 
 .item img:hover{
