@@ -50,15 +50,17 @@ h3 {
 }
 
 .img-recipe img{
-    height: 500px;
+    width: 500px;
     margin: 25px;
     display: flex;
     border-radius: 10px;
     box-shadow: 0 0 10px;
 }
 
-.intro {
+.body-recipe {
     display: flex;
+    flex-direction: column;
+
 }
 
 .description,
@@ -72,21 +74,21 @@ h3 {
 
 .introduction {
     display: flex;
-    flex-direction: column;
-    flex: 1;
+    flex:1;
 }
 
 .header-recipe {
     margin: auto;
+    width: fit-content;
 }
 
 .description {
     font-size: 30px;
     padding: 20px ;
-    margin: auto;
+    margin: 100 auto;
 }
 
-.body-recipe {
+.desarrollo {
     display: flex;
     gap: 25px;
     font-size: 30px;
