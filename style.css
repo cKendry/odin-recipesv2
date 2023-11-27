@@ -49,18 +49,19 @@ h3 {
     margin: 10px;
 }
 
-.img-recipe img{
-    width: 500px;
-    margin: 25px;
-    display: flex;
-    border-radius: 10px;
-    box-shadow: 0 0 10px;
+.header-recipe {
+    margin: auto;
+    width: fit-content;
 }
 
 .body-recipe {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
 
+span {
+    font-weight: 600;
 }
 
 .description,
@@ -77,15 +78,19 @@ h3 {
     flex:1;
 }
 
-.header-recipe {
-    margin: auto;
-    width: fit-content;
+
+.img-recipe img{
+    margin: 25px 25px 25px 0;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
 }
 
 .description {
     font-size: 30px;
     padding: 20px ;
-    margin: 100 auto;
+    margin: 25px 0 25px 0;
+    flex: 1;
 }
 
 .desarrollo {
