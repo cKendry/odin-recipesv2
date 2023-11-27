@@ -80,6 +80,7 @@ span {
 
 
 .img-recipe img{
+    width: 500px;
     margin: 25px 25px 25px 0;
     display: flex;
     border-radius: 10px;
